@@ -1,0 +1,38 @@
+{
+    "name": "flow-php/snappy",
+    "type": "library",
+    "description": "PHP ETL - Google Snappy compression algorithm implementation",
+    "keywords": [
+        "etl",
+        "extract",
+        "transform",
+        "load",
+        "filter",
+        "snappy",
+        "algorithm",
+        "compression"
+    ],
+    "require": {
+        "php": "~8.1 || ~8.2"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Flow\\": [
+                "src/Flow"
+            ]
+        },
+        "files": [ "polifil.php" ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Flow\\": "tests/Flow"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
